@@ -4,7 +4,7 @@
 
 2. In the Command Palette,  (`Cmd + p > project: open in dev container`) or click the toast on the bottom right. This should install the proper dependencies needed for your setup. In this case, that's `numpy`, `matplotlib`, and `ty` via `uv`.
 
-Write `np.arr` to make sure that the LSPs are working.
+Write `np.arr` to make sure that the LSPs are working. You should see autocompletion and type hints.
 
 3. Run
 
