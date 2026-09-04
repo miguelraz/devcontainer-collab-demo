@@ -1,12 +1,20 @@
 {
-    "name": "Python Dev Container",
-    "build": {
-        "dockerfile": "Dockerfile"
+  "name": "Python Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile",
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python"],
     },
-
-    "customizations": {
-        "vscode": {
-            "extensions": ["ms-python.python"]
-        }
-    }
+  },
 }
+
+// {
+//   "name": "repro",
+//   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+//   "remoteUser": "vscode",
+//   "containerEnv": {
+//     "PROMPT_COMMAND": "history -a",
+//   },
+// }

@@ -9,11 +9,14 @@ Correlation does not imply causation [2].
 [2] Pearl, J. (2009). Causality. Cambridge University Press.
 """
 
+
 import matplotlib.pyplot as plt
 import numpy as np
 
+
 # Year of observation.
 years = np.array([1820, 1860, 1880, 1920, 1950, 1980, 2000, 2010, 2020])
+
 
 # Estimated global pirate count (thousands). Dummy data.
 pirates = np.array([45, 30, 20, 15, 5, 3, 2, 1.5, 1])

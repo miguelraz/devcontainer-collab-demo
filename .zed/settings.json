@@ -1,0 +1,22 @@
+{
+  "languages": {
+    "Python": {
+      "language_servers": ["ty", "ruff", "!basedpyright"]
+    }
+  },
+  "lsp": {
+    "ty": {
+      "binary": {
+        "path": "ty",
+        "arguments": ["server"]
+      },
+      "settings": {
+        "configuration": {
+          "environment": {
+            "python": "/usr/local/bin/python3"
+          }
+        }
+      }
+    }
+  }
+}
